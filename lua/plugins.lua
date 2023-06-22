@@ -1,8 +1,8 @@
 --[[
-  File: plugins.lua
-  Description: This file needed for loading plugin list into lazy.nvim and loading plugins
-  Info: Use <zo> and <zc> to open and close foldings
-  See: https://github.com/wbthomason/packer.nvim
+File: plugins.lua
+Description: This file needed for loading plugin list into lazy.nvim and loading plugins
+Info: Use <zo> and <zc> to open and close foldings
+See: https://github.com/wbthomason/packer.nvim
 ]]
 
 require "helpers/globals"
@@ -112,6 +112,20 @@ return {
       require "extensions.treesitter"
     end
   },
+  -- }}}
+
+  -- Todo Comments {{{
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = true,
+  },
+  -- }}}
+
+  -- Mini.nvim {{{
+  { 'echasnovski/mini.surround', version = false, config = true, },
+  { 'echasnovski/mini.comment', version = false, config = true, },
+  { 'echasnovski/mini.pairs', version = false, config = true, },
   -- }}}
 
   -- Theme: Sonokai {{{
