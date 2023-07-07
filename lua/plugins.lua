@@ -37,6 +37,15 @@ return {
   },
   -- }}}
 
+  -- Nvim Tree{{{
+  {
+    'nvim-tree/nvim-tree.lua',
+    config = function ()
+      require('extensions.nvimtree')
+    end,
+  },
+  -- }}}
+
   -- CMP {{{
   {
     'hrsh7th/nvim-cmp',
@@ -133,7 +142,6 @@ return {
     end
   }
   -- }}}
-
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0

@@ -28,8 +28,8 @@ nm('<leader>x', '<cmd>TroubleToggle<CR>')                                       
 nm('gr', '<cmd>Trouble lsp_references<CR>')                                       -- Show use of object in project
 -- }}}
 
--- Neo Tree {{{
-nm('<leader>v', '<cmd>NeoTreeFocusToggle<CR>')                                        -- Toggle file explorer
+-- Nvim Tree {{{
+nm('<leader>v', '<cmd>NvimTreeToggle<CR>')                                        -- Toggle file explorer
 -- }}}
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
