@@ -86,6 +86,13 @@ return {
   },
   -- }}}
 
+  -- Diff View {{{ 
+  {
+    'sindrets/diffview.nvim',
+    config = true,
+  },
+  --}}}
+
   -- Trouble {{{
   {
     "folke/trouble.nvim",
