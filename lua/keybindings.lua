@@ -32,4 +32,8 @@ nm('gr', '<cmd>Trouble lsp_references<CR>')                                     
 nm('<leader>v', '<cmd>NvimTreeToggle<CR>')                                        -- Toggle file explorer
 -- }}}
 
+-- Search {{{ 
+nm('<leader>s', '<cmd>Spectre<CR>')
+-- }}}
+
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
