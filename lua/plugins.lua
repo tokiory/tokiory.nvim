@@ -147,8 +147,14 @@ return {
     config = function()
       require 'extensions.colorscheme.kanagawa'
     end
-  }
+  },
   -- }}}
+
+  -- Wakatime {{{ 
+    {
+      'wakatime/vim-wakatime',
+    },
+  -- }})
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0

@@ -27,5 +27,6 @@
   "sonokai": { "branch": "master", "commit": "a9b2a3e83ed4fa7a5541e41be9becaa7b436edcf" },
   "telescope.nvim": { "branch": "master", "commit": "c1a2af0af69e80e14e6b226d3957a064cd080805" },
   "todo-comments.nvim": { "branch": "main", "commit": "09b0b17d824d2d56f02ff15967e8a2499a89c731" },
-  "trouble.nvim": { "branch": "main", "commit": "2af0dd9767526410c88c628f1cbfcb6cf22dd683" }
+  "trouble.nvim": { "branch": "main", "commit": "2af0dd9767526410c88c628f1cbfcb6cf22dd683" },
+  "vim-wakatime": { "branch": "master", "commit": "018fa9a80c27ccf2a8967b9e27890372e5c2fb4f" }
 }
