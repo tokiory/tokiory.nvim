@@ -22,20 +22,6 @@ return {
   },
   -- }}}
 
-  -- Neo Tree {{{
-  {
-    "nvim-neo-tree/neo-tree.nvim",
-    branch = "v2.x",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "MunifTanjim/nui.nvim",
-    },
-    config = function ()
-      require "extensions.neotree"
-    end
-  },
-  -- }}}
-
   -- Telescope {{{
   {
     'nvim-telescope/telescope.nvim',
@@ -124,18 +110,28 @@ return {
 
   -- Mini.nvim {{{
   { 'echasnovski/mini.surround', version = false, config = true, },
-  { 'echasnovski/mini.comment', version = false, config = true, },
-  { 'echasnovski/mini.pairs', version = false, config = true, },
+  { 'echasnovski/mini.comment',  version = false, config = true, },
+  { 'echasnovski/mini.pairs',    version = false, config = true, },
   -- }}}
 
   -- Theme: Sonokai {{{
   {
     "sainnhe/sonokai",
     lazy = false,
-    config = function ()
+    config = function()
       require "extensions.colorscheme.sonokai"
     end
   },
+  -- }}}
+
+  -- Theme: Kanagawa {{{
+  {
+    'rebelot/kanagawa.nvim',
+    lazy = false,
+    config = function()
+      require 'extensions.colorscheme.kanagawa'
+    end
+  }
   -- }}}
 
 }
